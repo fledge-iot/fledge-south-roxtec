@@ -83,7 +83,7 @@ def test_plugin_contract():
 def test_plugin_info():
     assert roxtec.plugin_info() == {
         'name': 'Roxtec Transit',
-        'version': '2.1.0',
+        'version': '2.1.1',
         'mode': 'async',
         'type': 'south',
         'interface': '1.0',
